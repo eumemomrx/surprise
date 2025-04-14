@@ -64,7 +64,13 @@ iframe{
 }
 .carrossel .iFoto{
    animation: girar 7s linear infinite;
-
+   font-family: 'Caveat', cursive;
+   font-size: 2rem;
+   padding: 6px;
+}
+.carrossel .heart{
+    height: 25px;
+    margin-bottom: 0;
 }
 .carrossel img{
     max-height: 350px;
@@ -82,7 +88,7 @@ iframe{
     align-items: flex-start;
     display: flex;
     width: max-content;
-    animation: rodar 100s linear infinite;
+    animation: rodar 220s linear infinite;
     gap: 30px;
   }
 
@@ -111,7 +117,7 @@ footer p{
         transform: translateX(0);
       }
       100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
       }
 }
 @keyframes girar {
